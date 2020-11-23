@@ -9,8 +9,24 @@ function ContextProvider({ children }) {
 	const [styles, setStyles] = useState(['Pop', 'Salegy', 'Reggae', 'Rock', 'Folk', 'Rap']);
 
 	useEffect(() => {
-		setSongs(songData);
+		// if there's something inside ls with an id of "songs", then use that.
+		const lsSongs = JSON.parse(localStorage.getItem('songs'));
+		// otherwise, get the json
+		lsSongs ? setSongs(lsSongs) : setSongs(songData);
+
+		const lsCartItems = JSON.parse(localStorage.getItem('cartItems'));
+		lsCartItems && setCartItems(lsCartItems);
 	}, []);
+
+	useEffect(() => {
+		localStorage.setItem('songs', JSON.stringify(songs));
+	}, [songs]);
+
+	useEffect(() => {
+		localStorage.setItem('cartItems', JSON.stringify(cartItems));
+	}, [cartItems]);
+
+	// everytime there's something changing on the songs state, update that to ls.
 
 	function favoriteSong(songId) {
 		// how should I modify the state here?
@@ -60,9 +76,33 @@ function ContextProvider({ children }) {
 		setCartItems(prevItems => [...prevItems, song]);
 	}
 
+	function addSong(song) {
+		setSongs(prevSongs => [...prevSongs, song]);
+	}
+
+	function removeCartItem(songId) {
+		const filteredCartItems = cartItems.filter(cartItem => cartItem.id !== songId);
+		setCartItems(filteredCartItems);
+	}
+
+	function emptyCart() {
+		setCartItems([]);
+	}
+
 	return (
 		<Context.Provider
-			value={{ songs, styles, favoriteSong, upvoteSong, downvoteSong, addToCart, cartItems }}
+			value={{
+				songs,
+				styles,
+				favoriteSong,
+				upvoteSong,
+				downvoteSong,
+				addToCart,
+				cartItems,
+				addSong,
+				removeCartItem,
+				emptyCart,
+			}}
 		>
 			{children}
 		</Context.Provider>

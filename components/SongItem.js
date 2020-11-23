@@ -42,14 +42,21 @@ const SongItemStyle = styled.div`
 `;
 
 export default function SongItem({ song }) {
-	const { favoriteSong, upvoteSong, downvoteSong, addToCart, cartItems } = useContext(Context);
+	const {
+		favoriteSong,
+		upvoteSong,
+		downvoteSong,
+		addToCart,
+		cartItems,
+		removeCartItem,
+	} = useContext(Context);
 
 	function showCartIcon() {
 		const isAlreadyInCart = cartItems.some(item => item.id === song.id);
 		if (isAlreadyInCart) {
-			return <AiTwotoneShopping />;
+			return <AiTwotoneShopping onClick={() => removeCartItem(song.id)} />;
 		}
-		return <AiOutlineShopping />;
+		return <AiOutlineShopping onClick={() => addToCart(song)} />;
 	}
 
 	function showFavoriteIcon() {
@@ -71,7 +78,7 @@ export default function SongItem({ song }) {
 			<div className="votes">
 				{song.downvotes} <AiOutlineArrowDown onClick={() => downvoteSong(song.id)} />
 			</div>
-			<div onClick={() => addToCart(song)}>{showCartIcon()}</div>
+			{showCartIcon()}
 			<div>
 				<Link to={`/song/${song.id}`}>
 					<AiOutlineEllipsis />
