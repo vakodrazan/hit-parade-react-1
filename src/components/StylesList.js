@@ -16,8 +16,7 @@ const StylesContainer = styled.div`
 	}
 `;
 
-export default function StylesList() {
-	const { styles } = useContext(Context);
+export default function StylesList({ styles }) {
 	return (
 		<div>
 			<h1>Styles list</h1>

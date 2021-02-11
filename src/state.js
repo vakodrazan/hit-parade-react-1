@@ -1,5 +1,7 @@
+import songData from "../songsData.json"
+
 export default {
-    songs: [],
+    songs: songData,
     cartItems: [],
     styles: ['Pop', 'Salegy', 'Reggae', 'Rock', 'Folk', 'Rap']
 }

@@ -10,11 +10,8 @@ const SongsContainer = styled.ul`
 	margin: 0;
 `;
 
-export default function PopularSongs({ songs, getSongs }) {
+export default function PopularSongs({ songs }) {
 
-	useEffect(() => {
-		getSongs()
-	}, [])
 
 	function sortSongsByPopularity(songA, songB) {
 		const ratioA = songA.upvotes - songA.downvotes;

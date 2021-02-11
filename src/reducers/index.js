@@ -2,7 +2,7 @@ import { combineReducers } from "redux";
 function songs(state = [], action) {
     switch (action.type) {
         case "ALL_SONGS":
-            return action.value
+            return [...state]
         case "UPVOTE_SONG":
             return state.map(song => {
                 if (song.id === action.value) {
@@ -32,8 +32,9 @@ function songs(state = [], action) {
                     };
                 }
                 return song;
-            })
-    
+            }) 
+        case "ADD_SONG": 
+            return [...state, action.value]
         default:
             return state;
     }
@@ -49,14 +50,12 @@ function cartItems(state = [], action) {
 }
 function styles(state = [], action) {
     switch (action.type) {
-        case "":
-            
-    
+        case "STYLE_LISTS":
+            return state
         default:
             return state;
     }
 }
-
 
 export default combineReducers({
     songs,

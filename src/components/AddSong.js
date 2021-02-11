@@ -1,5 +1,4 @@
-import React, { useState, useContext } from 'react';
-import { Context } from './Context';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const FormStyles = styled.form`
@@ -26,8 +25,7 @@ const FormStyles = styled.form`
 // input that is link to STATE
 // value, onChange
 
-export default function AddSong() {
-	const { styles, addSong } = useContext(Context);
+export default function AddSong({ styles, addSong }) {
 
 	const [title, setTitle] = useState('');
 	const [artist, setArtist] = useState('');
@@ -48,7 +46,6 @@ export default function AddSong() {
 			downvotes: 0,
 			isFavorited: false,
 		};
-		console.log(newSong);
 		addSong(newSong);
 		// reset the form... TODO: find a more elegant way.
 		setTitle('');
