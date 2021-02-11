@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import { Context } from './Context';
+import React, { useEffect } from 'react';
 import SongItem from './SongItem';
 import styled from 'styled-components';
 
@@ -11,8 +10,11 @@ const SongsContainer = styled.ul`
 	margin: 0;
 `;
 
-export default function PopularSongs() {
-	const { songs } = useContext(Context);
+export default function PopularSongs({ songs, getSongs }) {
+
+	useEffect(() => {
+		getSongs()
+	}, [])
 
 	function sortSongsByPopularity(songA, songB) {
 		const ratioA = songA.upvotes - songA.downvotes;

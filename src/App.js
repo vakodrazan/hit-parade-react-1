@@ -1,21 +1,14 @@
 import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 
-import Menu from './Menu';
+import Menu from './components/Menu';
 
-import PopularSongs from './PopularSongs';
-import StylesList from './StylesList';
-import Style from './Style';
-import Song from './Song';
-import AddSong from './AddSong';
-import Cart from './Cart';
-
-// - / (PopularSongs.js)
-// - /styles (StylesList.js)
-// - /styles/:styleName (Style.js)
-// - /song/:songId (Song.js)
-// - /add (AddSong.js)
-// - /cart (Cart.js)
+import PopularSongs from './containers/PopularSongs';
+import StylesList from './components/StylesList';
+import Style from './components/Style';
+import Song from './components/Song';
+import AddSong from './components/AddSong';
+import Cart from './components/Cart';
 
 export default function App() {
 	return (
@@ -28,7 +21,7 @@ export default function App() {
 				<Route exact path="/">
 					<PopularSongs />
 				</Route>
-				<Route exact path="/styles">
+				{/* <Route exact path="/styles">
 					<StylesList />
 				</Route>
 				<Route exact path="/styles/:styleName">
@@ -42,7 +35,7 @@ export default function App() {
 				</Route>
 				<Route exact path="/cart">
 					<Cart />
-				</Route>
+				</Route> */}
 			</Switch>
 		</div>
 	);

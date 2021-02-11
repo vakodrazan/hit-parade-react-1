@@ -42,43 +42,48 @@ const SongItemStyle = styled.div`
 `;
 
 export default function SongItem({ song }) {
-	const {
-		favoriteSong,
-		upvoteSong,
-		downvoteSong,
-		addToCart,
-		cartItems,
-		removeCartItem,
-	} = useContext(Context);
+	// const {
+	// 	favoriteSong,
+	// 	upvoteSong,
+	// 	downvoteSong,
+	// 	addToCart,
+	// 	cartItems,
+	// 	removeCartItem,
+	// } = useContext(Context);
 
-	function showCartIcon() {
-		const isAlreadyInCart = cartItems.some(item => item.id === song.id);
-		if (isAlreadyInCart) {
-			return <AiTwotoneShopping onClick={() => removeCartItem(song.id)} />;
-		}
-		return <AiOutlineShopping onClick={() => addToCart(song)} />;
-	}
+	// function showCartIcon() {
+	// 	const isAlreadyInCart = cartItems.some(item => item.id === song.id);
+	// 	if (isAlreadyInCart) {
+	// 		return <AiTwotoneShopping onClick={() => removeCartItem(song.id)} />;
+	// 	}
+	// 	return <AiOutlineShopping onClick={() => addToCart(song)} />;
+	// }
 
-	function showFavoriteIcon() {
-		return song.isFavorited ? <AiFillHeart /> : <AiOutlineHeart />;
-	}
+	// function showFavoriteIcon() {
+	// 	return song.isFavorited ? <AiFillHeart /> : <AiOutlineHeart />;
+	// }
+
+
+// 	onClick={() => favoriteSong(song.id)}
+// onClick={() => upvoteSong(song.id)}
+// onClick={() => downvoteSong(song.id)}
 
 	return (
 		<SongItemStyle>
-			<div className="heart-icon" onClick={() => favoriteSong(song.id)}>
-				{showFavoriteIcon()}
+			<div className="heart-icon">
+				{/* {showFavoriteIcon()} */}
 			</div>
 			<div>
 				<div className="song-title">{song.title}</div>
 				<div>{song.artist}</div>
 			</div>
 			<div className="votes">
-				{song.upvotes} <AiOutlineArrowUp onClick={() => upvoteSong(song.id)} />
+				{song.upvotes} <AiOutlineArrowUp />
 			</div>
 			<div className="votes">
-				{song.downvotes} <AiOutlineArrowDown onClick={() => downvoteSong(song.id)} />
+				{song.downvotes} <AiOutlineArrowDown />
 			</div>
-			{showCartIcon()}
+			{/* {showCartIcon()} */}
 			<div>
 				<Link to={`/song/${song.id}`}>
 					<AiOutlineEllipsis />
