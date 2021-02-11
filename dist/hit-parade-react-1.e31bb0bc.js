@@ -10814,7 +10814,7 @@ if ("development" !== "production") {
       }
 
       var eventName = 'on' + eventNameSuffix;
-      var isSupported = eventName in document;
+      var isSupported = (eventName in document);
 
       if (!isSupported) {
         var element = document.createElement('div');
@@ -33856,32 +33856,32 @@ if ("development" !== "production") {
 },{"react-router":"node_modules/react-router/esm/react-router.js","@babel/runtime/helpers/esm/inheritsLoose":"node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","react":"node_modules/react/index.js","history":"node_modules/history/esm/history.js","prop-types":"node_modules/prop-types/index.js","tiny-warning":"node_modules/tiny-warning/dist/tiny-warning.esm.js","@babel/runtime/helpers/esm/extends":"node_modules/@babel/runtime/helpers/esm/extends.js","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","tiny-invariant":"node_modules/tiny-invariant/dist/tiny-invariant.esm.js"}],"songsData.json":[function(require,module,exports) {
 module.exports = [{
   "id": "1606111765520",
-  "title": "Dream",
-  "artist": "Jami",
+  "title": "Tiako ianao",
+  "artist": "Fy Rasolofoniaina",
   "style": "Pop",
   "upvotes": 10,
   "downvotes": 1,
-  "lyrics": "Dream Dream Dream On On ON!!!!! Dream Dream Dream On On ON!!!!!Dream Dream Dream On On ON!!!!!Dream Dream Dream On On ON!!!!!Dream Dream Dream On On ON!!!!!Dream Dream Dream On On ON!!!!!Dream Dream Dream On On ON!!!!!Dream Dream Dream On On ON!!!!!Dream Dream Dream On On ON!!!!!Dream Dream Dream On On ON!!!!!",
+  "lyrics": "<div><p>Kalo, nofy, tsiky</p><p>Ho entinao ho ahy, anatiko any</p><p>Rava ireo manda manodidina ahy</p><p>Ahoana no anaovanao izany e!</p></div>\n<div><p>Toa misy afo mamaivay ny masonao</p><p>Manainga ahy ho sahisahy</p><p>Mampatsiahy ahy hoe hay olon'afaka aho</p><p>Ekenao ny maha izaho ahy.</p></div>\n<div><p>A a a! ah! ah! hay!</p>Sambatra aho Manana anao</p><p>A a a! ah! ah! a!</p><p>Asandratro avo</p><p>Ny feoko hanambara hoe:</p><p>Tiako ianao!!! tiako ianao</p><p>Ny feoko hanambara hoe Tiako ianao.</p></div>\n<div><p>Tiako ny mihaino ny feonao</p><p>Mitondra ahy</p><p>Lavitr'izao tontolo izao</p><p>Tontolo izay namboarinao ho ahy.</p></div>\n<div><p>Ary misy afo mamaivay manafana</p><p>Izay narehitrao ho antsika</p><p>Ary ny manodidina azy no hizarana</p><p>Izay rehetra any anatintsika.</p></div>\n<div><p>A a a! ah! ah! hay!</p><p>Sambatra aho</p><p>Manana anao</p><p>A a a! ah! ah! a!</p><p>Asandratro avo.</p></div>\n<div><p>Ny feoko hanambara hoe:</p><p>Tiako ianao.</p><p>Tiako ianao</p><p>Ny feoko hanambara hoe</p><p>Tiako ianao.</p><p>Na ny rano lalina aza</p></div>\n<div><p>Tsy hahaleo ny fitiavana</p><p>Izay mamatotra ahy aminao</p><p>Tsy misy azo atao.</p></div>\n<div><p>Hay! hay aihay hay!</p><p>Haaah ah ah ah hay hay!</p><p>Ah ah ah ah hay hay!</p><p>Ah ah ah ah!!</p><p>Ah ah ah ah!!</p></div>\n<div><p>A a a! ah! ah! hay!<p>Sambatra aho</p><p>Manana anao</p><p>A a a! ah! ah! a!</p><p> Asandratro avo.</p></div>\n<div><p>Ny feoko hanambara hoe:</p><p>Tiako ianao!!! tiako ianao</p><p>Izao rehetra izao hahalala hoe:</p><p>Tiako ianao!!! tiako ianao</p><p>Izao rehetra izao hahalala hoe tiako ianao.</p></div>\n<div><p>Oh oh oh oh oh ooh!</p><p>oh oh oh oh oooh!</p></div>\n",
   "price": 100,
   "isFavorited": true
 }, {
   "id": "1606112214653",
-  "title": "Red Wine",
-  "artist": "UB 40",
+  "title": "Overcomer",
+  "artist": "Mandisa",
   "style": "Reggae",
   "upvotes": 5,
   "downvotes": 1,
-  "lyrics": "Red, red wine goes to my head\n\t\tMakes me forget that I still need her so\n\t\tRed, red wine, it's up to you\n\t\tAll I can do I've done\n\t\tMemories won't go, memories won't go\n\t\tI'd have sworn that with time\n\t\tThoughts of you leave my head\n\t\tI was wrong, now I find\n\t\tJust one thing makes me forget\n\t\tRed, red wine, stay close to me\n\t\tDon't let me be alone\n\t\tIt's tearing apart my blue heart\n\t\tI'd have sworn that with time\n\t\tThoughts of you leave my head\n\t\tI was wrong, now I find\n\t\tJust one thing makes me forget\n\t\tRed, red wine, stay close to me\n\t\tDon't let me be alone\n\t\tIt's tearing apart my blue heart\n\t\tRed red wine, you make me feel so fine\n\t\tYou keep me rockin' all of the time\n\t\tRed red wine, you make me feel so grand\n\t\tI feel a million dollar when you're just in my hand\n\t\tRed red wine, you make me feel so sad\n\t\tAny\u2026",
+  "lyrics": "<div><p>Staring at a stop sign</p><p>Watching people drive by</p><p>T. Mac on the radio</p><p>Got so much on your mind</p><p>Nothing's really going right</p><p>Looking for a ray of hope</p></div>\n<div><p>Whatever it is you may be going through</p><p>I know He's not gonna let it get the best of you</p></div>\n<div><p>You're an overcomer</p><p>Stay in the fight until the final round</p><p>You're not going under</p><p>'Cause God is holding you right now</p><p>You might be down for a moment</p><p>Feeling like it's hopeless</p><p>That's when He reminds You</p><p>That you're an overcomer</p><p>You're an overcomer</p></div>\n<div><p>Everybody's been down</p><p>Hit the bottom, hit the ground</p><p>Oh, you're not alone</p><p>Just take a breath, don't forget</p><p>Hang on to His promises</p><p>He wants You to know</p></div>\n<div><p>You're an overcomer</p><p>Stay in the fight until the final round</p><p>You're not going under</p><p>'Cause God is holding you right now</p><p>You might be down for a moment</p><p>Feeling like it's hopeless</p><p>That's when He reminds You</p><p>That you're an overcomer</p><p>You're an overcomer</p></div>\n<div><p>The same Man, the Great I am</p><p>The one who overcame death</p><p>Is living inside of You</p><p>So just hold tight, fix your eyes</p><p>On the one who holds your life</p><p>There's nothing he can't do</p><p>He's telling you</p></div>\n<div><p>You're an overcomer</p><p>Stay in the fight until the final round</p><p>You're not going under</p><p>'Cause God is holding you right now</p><p>You might be down for a moment</p><p>Feeling like it's hopeless</p><p>That's when He reminds You</p><p>That you're an overcomer</p><p>You're an overcomer</p><p>You're an overcomer</p><p>You're an overcomer</p></div>\n<div><p>So don't quit, don't give in</p><p>You're an overcomer</p><p>Don't quit, don't give in</p><p>You're an overcomer</p><p>Don't quit, don't give in</p><p>You're an overcomer</p><p>You're an overcomer</p></div>\n",
   "price": 100,
   "isFavorited": true
 }, {
   "id": "1606112367350",
-  "title": "Formidable",
-  "artist": "Stromae",
+  "title": "Someone You Love",
+  "artist": "Lewis Capaldi",
   "style": "Pop",
   "upvotes": 0,
   "downvotes": 0,
-  "lyrics": "Formidable Formidable Formidable Formidable Formidable Formidable Formidable Formidable ",
+  "lyrics": "<div><p>I'm going under and this time I fear there's no one to save me</p><p>This all or nothing really got a way of driving me crazy</p><p>I need somebody to heal</p><p>Somebody to know</p><p>Somebody to have</p><p>Somebody to hold</p><p>It's easy to say</p><p>But it's never the same</p><p>I guess I kinda liked the way you numbed all the pain</p></div>\n<div><p>Now the day bleeds</p><p>Into nightfall</p><p>And you're not here</p><p>To get me through it all</p><p>I let my guard down</p><p>And then you pulled the rug</p><p>I was getting kinda used to being someone you loved</p></div>\n<div><p>I'm going under and this time I fear there's no one to turn to</p><p>This all or nothing way of loving got me sleeping without you</p><p>Now, I need somebody to know</p><p>Somebody to heal</p><p>Somebody to have</p><p>Just to know how it feels</p><p>It's easy to say but it's never the same</p><p>I guess I kinda liked the way you helped me escape</p></div>\n<div><p>Now the day bleeds</p><p>Into nightfall</p><p>And you're not here</p><p>To get me through it all</p><p>I let my guard down</p><p>And then you pulled the rug</p><p>I was getting kinda used to being someone you loved</p></div>\n<div><p>And I tend to close my eyes when it hurts sometimes</p><p>I fall into your arms</p><p>I'll be safe in your sound 'til I come back around</p></div>\n<div><p>For now the day bleeds</p><p>Into nightfall</p><p>And you're not here</p><p>To get me through it all</p><p>I let my guard down</p><p>And then you pulled the rug</p><p>I was getting kinda used to being someone you loved</p></div>\n<div><p>But now the day bleeds</p><p>Into nightfall</p><p>And you're not here</p><p>To get me through it all</p><p>I let my guard down</p><p>And then you pulled the rug</p><p>I was getting kinda used to being someone you loved</p></div>\n<div><p>I let my guard down</p><p>And then you pulled the rug</p><p>I was getting kinda used to being someone you loved</p></div>\n",
   "price": 200,
   "isFavorited": false
 }];
@@ -33904,62 +33904,28 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
-
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
-
-function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
-
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-var Context = _react.default.createContext();
+const Context = _react.default.createContext();
 
 exports.Context = Context;
 
-function ContextProvider(_ref) {
-  var children = _ref.children;
-
-  var _useState = (0, _react.useState)([]),
-      _useState2 = _slicedToArray(_useState, 2),
-      songs = _useState2[0],
-      setSongs = _useState2[1];
-
-  var _useState3 = (0, _react.useState)([]),
-      _useState4 = _slicedToArray(_useState3, 2),
-      cartItems = _useState4[0],
-      setCartItems = _useState4[1];
-
-  var _useState5 = (0, _react.useState)(['Pop', 'Salegy', 'Reggae', 'Rock', 'Folk', 'Rap']),
-      _useState6 = _slicedToArray(_useState5, 2),
-      styles = _useState6[0],
-      setStyles = _useState6[1];
-
-  (0, _react.useEffect)(function () {
+function ContextProvider({
+  children
+}) {
+  const [songs, setSongs] = (0, _react.useState)([]);
+  const [cartItems, setCartItems] = (0, _react.useState)([]);
+  const [styles, setStyles] = (0, _react.useState)(['Pop', 'Salegy', 'Reggae', 'Rock', 'Folk', 'Rap']);
+  (0, _react.useEffect)(() => {
     // if there's something inside ls with an id of "songs", then use that.
-    var lsSongs = JSON.parse(localStorage.getItem('songs')); // otherwise, get the json
+    const lsSongs = JSON.parse(localStorage.getItem('songs')); // otherwise, get the json
 
     lsSongs ? setSongs(lsSongs) : setSongs(_songsData.default);
-    var lsCartItems = JSON.parse(localStorage.getItem('cartItems'));
+    const lsCartItems = JSON.parse(localStorage.getItem('cartItems'));
     lsCartItems && setCartItems(lsCartItems);
   }, []);
-  (0, _react.useEffect)(function () {
+  (0, _react.useEffect)(() => {
     localStorage.setItem('songs', JSON.stringify(songs));
   }, [songs]);
-  (0, _react.useEffect)(function () {
+  (0, _react.useEffect)(() => {
     localStorage.setItem('cartItems', JSON.stringify(cartItems));
   }, [cartItems]); // everytime there's something changing on the songs state, update that to ls.
 
@@ -33967,11 +33933,11 @@ function ContextProvider(_ref) {
     // how should I modify the state here?
     // recreate a WHOLE new state array
     // we want to update the state in an IMMUTABLE WAY
-    var updatedSongs = songs.map(function (song) {
+    const updatedSongs = songs.map(song => {
       if (song.id === songId) {
-        return _objectSpread({}, song, {
+        return { ...song,
           isFavorited: !song.isFavorited
-        });
+        };
       }
 
       return song;
@@ -33981,11 +33947,11 @@ function ContextProvider(_ref) {
   }
 
   function upvoteSong(songId) {
-    var updatedSongs = songs.map(function (song) {
+    const updatedSongs = songs.map(song => {
       if (song.id === songId) {
-        return _objectSpread({}, song, {
+        return { ...song,
           upvotes: song.upvotes + 1
-        });
+        };
       }
 
       return song;
@@ -33994,11 +33960,11 @@ function ContextProvider(_ref) {
   }
 
   function downvoteSong(songId) {
-    var updatedSongs = songs.map(function (song) {
+    const updatedSongs = songs.map(song => {
       if (song.id === songId) {
-        return _objectSpread({}, song, {
+        return { ...song,
           downvotes: song.downvotes + 1
-        });
+        };
       }
 
       return song;
@@ -34008,21 +33974,15 @@ function ContextProvider(_ref) {
 
   function addToCart(song) {
     // push in an immutable way
-    setCartItems(function (prevItems) {
-      return [].concat(_toConsumableArray(prevItems), [song]);
-    });
+    setCartItems(prevItems => [...prevItems, song]);
   }
 
   function addSong(song) {
-    setSongs(function (prevSongs) {
-      return [].concat(_toConsumableArray(prevSongs), [song]);
-    });
+    setSongs(prevSongs => [...prevSongs, song]);
   }
 
   function removeCartItem(songId) {
-    var filteredCartItems = cartItems.filter(function (cartItem) {
-      return cartItem.id !== songId;
-    });
+    const filteredCartItems = cartItems.filter(cartItem => cartItem.id !== songId);
     setCartItems(filteredCartItems);
   }
 
@@ -34030,18 +33990,18 @@ function ContextProvider(_ref) {
     setCartItems([]);
   }
 
-  return _react.default.createElement(Context.Provider, {
+  return /*#__PURE__*/_react.default.createElement(Context.Provider, {
     value: {
-      songs: songs,
-      styles: styles,
-      favoriteSong: favoriteSong,
-      upvoteSong: upvoteSong,
-      downvoteSong: downvoteSong,
-      addToCart: addToCart,
-      cartItems: cartItems,
-      addSong: addSong,
-      removeCartItem: removeCartItem,
-      emptyCart: emptyCart
+      songs,
+      styles,
+      favoriteSong,
+      upvoteSong,
+      downvoteSong,
+      addToCart,
+      cartItems,
+      addSong,
+      removeCartItem,
+      emptyCart
     }
   }, children);
 }
@@ -34816,7 +34776,7 @@ var index = (0, _memoize.default)(function (prop) {
 );
 var _default = index;
 exports.default = _default;
-},{"@emotion/memoize":"node_modules/@emotion/memoize/dist/memoize.browser.esm.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
+},{"@emotion/memoize":"node_modules/@emotion/memoize/dist/memoize.browser.esm.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -35060,31 +35020,25 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
 function v() {
   return (v = Object.assign || function (e) {
     for (var t = 1; t < arguments.length; t++) {
       var n = arguments[t];
 
-      for (var r in n) {
-        Object.prototype.hasOwnProperty.call(n, r) && (e[r] = n[r]);
-      }
+      for (var r in n) Object.prototype.hasOwnProperty.call(n, r) && (e[r] = n[r]);
     }
 
     return e;
   }).apply(this, arguments);
 }
 
-var g = function g(e, t) {
-  for (var n = [e[0]], r = 0, o = t.length; r < o; r += 1) {
-    n.push(t[r], e[r + 1]);
-  }
+var g = function (e, t) {
+  for (var n = [e[0]], r = 0, o = t.length; r < o; r += 1) n.push(t[r], e[r + 1]);
 
   return n;
 },
-    S = function S(t) {
-  return null !== t && "object" == _typeof(t) && "[object Object]" === (t.toString ? t.toString() : Object.prototype.toString.call(t)) && !(0, _reactIs.typeOf)(t);
+    S = function (t) {
+  return null !== t && "object" == typeof t && "[object Object]" === (t.toString ? t.toString() : Object.prototype.toString.call(t)) && !(0, _reactIs.typeOf)(t);
 },
     w = Object.freeze([]),
     E = Object.freeze({});
@@ -35128,9 +35082,7 @@ var A = "undefined" != typeof process && (undefined || undefined) || "data-style
 exports.version = C;
 
 function D() {
-  for (var e = arguments.length <= 0 ? void 0 : arguments[0], t = [], n = 1, r = arguments.length; n < r; n += 1) {
-    t.push(n < 0 || arguments.length <= n ? void 0 : arguments[n]);
-  }
+  for (var e = arguments.length <= 0 ? void 0 : arguments[0], t = [], n = 1, r = arguments.length; n < r; n += 1) t.push(n < 0 || arguments.length <= n ? void 0 : arguments[n]);
 
   return t.forEach(function (t) {
     e = e.replace(/%[a-z]/, t);
@@ -35138,9 +35090,7 @@ function D() {
 }
 
 function j(e) {
-  for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++) {
-    n[r - 1] = arguments[r];
-  }
+  for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++) n[r - 1] = arguments[r];
 
   throw "production" === "development" ? new Error("An error occurred. See https://git.io/JUIaE#" + e + " for more information." + (n.length > 0 ? " Args: " + n.join(", ") : "")) : new Error(D.apply(void 0, [R[e]].concat(n)).trim());
 }
@@ -35152,27 +35102,19 @@ var T = function () {
 
   var t = e.prototype;
   return t.indexOfGroup = function (e) {
-    for (var t = 0, n = 0; n < e; n++) {
-      t += this.groupSizes[n];
-    }
+    for (var t = 0, n = 0; n < e; n++) t += this.groupSizes[n];
 
     return t;
   }, t.insertRules = function (e, t) {
     if (e >= this.groupSizes.length) {
-      for (var n = this.groupSizes, r = n.length, o = r; e >= o;) {
-        (o <<= 1) < 0 && j(16, "" + e);
-      }
+      for (var n = this.groupSizes, r = n.length, o = r; e >= o;) (o <<= 1) < 0 && j(16, "" + e);
 
       this.groupSizes = new Uint32Array(o), this.groupSizes.set(n), this.length = o;
 
-      for (var s = r; s < o; s++) {
-        this.groupSizes[s] = 0;
-      }
+      for (var s = r; s < o; s++) this.groupSizes[s] = 0;
     }
 
-    for (var i = this.indexOfGroup(e + 1), a = 0, c = t.length; a < c; a++) {
-      this.tag.insertRule(i, t[a]) && (this.groupSizes[e]++, i++);
-    }
+    for (var i = this.indexOfGroup(e + 1), a = 0, c = t.length; a < c; a++) this.tag.insertRule(i, t[a]) && (this.groupSizes[e]++, i++);
   }, t.clearGroup = function (e) {
     if (e < this.length) {
       var t = this.groupSizes[e],
@@ -35180,17 +35122,13 @@ var T = function () {
           r = n + t;
       this.groupSizes[e] = 0;
 
-      for (var o = n; o < r; o++) {
-        this.tag.deleteRule(n);
-      }
+      for (var o = n; o < r; o++) this.tag.deleteRule(n);
     }
   }, t.getGroup = function (e) {
     var t = "";
     if (e >= this.length || 0 === this.groupSizes[e]) return t;
 
-    for (var n = this.groupSizes[e], r = this.indexOfGroup(e), o = r + n, s = r; s < o; s++) {
-      t += this.tag.getRule(s) + "/*!sc*/\n";
-    }
+    for (var n = this.groupSizes[e], r = this.indexOfGroup(e), o = r + n, s = r; s < o; s++) t += this.tag.getRule(s) + "/*!sc*/\n";
 
     return t;
   }, e;
@@ -35198,30 +35136,26 @@ var T = function () {
     k = new Map(),
     x = new Map(),
     V = 1,
-    B = function B(e) {
+    B = function (e) {
   if (k.has(e)) return k.get(e);
 
-  for (; x.has(V);) {
-    V++;
-  }
+  for (; x.has(V);) V++;
 
   var t = V++;
   return "production" !== "development" && ((0 | t) < 0 || t > 1 << 30) && j(16, "" + t), k.set(e, t), x.set(t, e), t;
 },
-    M = function M(e) {
+    M = function (e) {
   return x.get(e);
 },
-    z = function z(e, t) {
+    z = function (e, t) {
   k.set(e, t), x.set(t, e);
 },
     L = "style[" + A + '][data-styled-version="5.2.1"]',
     G = new RegExp("^" + A + '\\.g(\\d+)\\[id="([\\w\\d-]+)"\\].*?"([^"]*)'),
-    F = function F(e, t, n) {
-  for (var r, o = n.split(","), s = 0, i = o.length; s < i; s++) {
-    (r = o[s]) && e.registerName(t, r);
-  }
+    F = function (e, t, n) {
+  for (var r, o = n.split(","), s = 0, i = o.length; s < i; s++) (r = o[s]) && e.registerName(t, r);
 },
-    Y = function Y(e, t) {
+    Y = function (e, t) {
   for (var n = t.innerHTML.split("/*!sc*/\n"), r = [], o = 0, s = n.length; o < s; o++) {
     var i = n[o].trim();
 
@@ -35236,10 +35170,10 @@ var T = function () {
     }
   }
 },
-    q = function q() {
+    q = function () {
   return "undefined" != typeof __webpack_nonce__ ? __webpack_nonce__ : null;
 },
-    H = function H(e) {
+    H = function (e) {
   var t = document.head,
       n = e || t,
       r = document.createElement("style"),
@@ -35385,7 +35319,7 @@ var T = function () {
   }, e;
 }(),
     K = /(a)(d)/gi,
-    Q = function Q(e) {
+    Q = function (e) {
   return String.fromCharCode(e + (e > 25 ? 39 : 97));
 };
 
@@ -35393,21 +35327,17 @@ function ee(e) {
   var t,
       n = "";
 
-  for (t = Math.abs(e); t > 52; t = t / 52 | 0) {
-    n = Q(t % 52) + n;
-  }
+  for (t = Math.abs(e); t > 52; t = t / 52 | 0) n = Q(t % 52) + n;
 
   return (Q(t % 52) + n).replace(K, "$1-$2");
 }
 
-var te = function te(e, t) {
-  for (var n = t.length; n;) {
-    e = 33 * e ^ t.charCodeAt(--n);
-  }
+var te = function (e, t) {
+  for (var n = t.length; n;) e = 33 * e ^ t.charCodeAt(--n);
 
   return e;
 },
-    ne = function ne(e) {
+    ne = function (e) {
   return te(5381, e);
 };
 
@@ -35514,7 +35444,7 @@ function ce(e) {
   }(function (e) {
     d.push(e);
   }),
-      f = function f(e, r, s) {
+      f = function (e, r, s) {
     return 0 === r && ae.includes(s[n.length]) || s.match(o) ? e : "." + t;
   };
 
@@ -35603,7 +35533,7 @@ var ve = function () {
     ge = /([A-Z])/,
     Se = /([A-Z])/g,
     we = /^ms-/,
-    Ee = function Ee(e) {
+    Ee = function (e) {
   return "-" + e.toLowerCase();
 };
 
@@ -35611,15 +35541,13 @@ function be(e) {
   return ge.test(e) ? e.replace(Se, Ee).replace(we, "-ms-") : e;
 }
 
-var _e = function _e(e) {
+var _e = function (e) {
   return null == e || !1 === e || "" === e;
 };
 
 function Ne(e, n, r, o) {
   if (Array.isArray(e)) {
-    for (var s, i = [], a = 0, c = e.length; a < c; a += 1) {
-      "" !== (s = Ne(e[a], n, r, o)) && (Array.isArray(s) ? i.push.apply(i, s) : i.push(s));
-    }
+    for (var s, i = [], a = 0, c = e.length; a < c; a += 1) "" !== (s = Ne(e[a], n, r, o)) && (Array.isArray(s) ? i.push.apply(i, s) : i.push(s));
 
     return i;
   }
@@ -35639,25 +35567,21 @@ function Ne(e, n, r, o) {
         o,
         s = [];
 
-    for (var i in t) {
-      t.hasOwnProperty(i) && !_e(t[i]) && (S(t[i]) ? s.push.apply(s, e(t[i], i)) : b(t[i]) ? s.push(be(i) + ":", t[i], ";") : s.push(be(i) + ": " + (r = i, null == (o = t[i]) || "boolean" == typeof o || "" === o ? "" : "number" != typeof o || 0 === o || r in _unitless.default ? String(o).trim() : o + "px") + ";"));
-    }
+    for (var i in t) t.hasOwnProperty(i) && !_e(t[i]) && (S(t[i]) ? s.push.apply(s, e(t[i], i)) : b(t[i]) ? s.push(be(i) + ":", t[i], ";") : s.push(be(i) + ": " + (r = i, null == (o = t[i]) || "boolean" == typeof o || "" === o ? "" : "number" != typeof o || 0 === o || r in _unitless.default ? String(o).trim() : o + "px") + ";"));
 
     return n ? [n + " {"].concat(s, ["}"]) : s;
   }(e) : e.toString();
 }
 
 function Ae(e) {
-  for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++) {
-    n[r - 1] = arguments[r];
-  }
+  for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++) n[r - 1] = arguments[r];
 
   return b(e) || S(e) ? Ne(g(w, [e].concat(n))) : 0 === n.length && 1 === e.length && "string" == typeof e[0] ? e : Ne(g(e, n));
 }
 
 var Ce = /invalid hook call/i,
     Ie = new Set(),
-    Pe = function Pe(e, t) {
+    Pe = function (e, t) {
   if ("production" !== "development") {
     var n = "The component " + e + (t ? ' with the id of "' + t + '"' : "") + " has been created dynamically.\nYou may see this warning because you've called styled inside another component.\nTo resolve this only create new StyledComponents outside of any render method and function component.";
 
@@ -35668,7 +35592,7 @@ var Ce = /invalid hook call/i,
     }
   }
 },
-    Oe = function Oe(e, t, n) {
+    Oe = function (e, t, n) {
   return void 0 === n && (n = E), e.theme !== n.theme && e.theme || t || n.theme;
 },
     Re = /[!"#$%&'()*+,./:;<=>?@[\\\]^`{|}~-]+/g,
@@ -35678,7 +35602,7 @@ function je(e) {
   return e.replace(Re, "-").replace(De, "");
 }
 
-var Te = function Te(e) {
+var Te = function (e) {
   return ee(ne(e) >>> 0);
 };
 
@@ -35686,10 +35610,10 @@ function ke(e) {
   return "string" == typeof e && ("production" === "development" || e.charAt(0) === e.charAt(0).toLowerCase());
 }
 
-var xe = function xe(e) {
-  return "function" == typeof e || "object" == _typeof(e) && null !== e && !Array.isArray(e);
+var xe = function (e) {
+  return "function" == typeof e || "object" == typeof e && null !== e && !Array.isArray(e);
 },
-    Ve = function Ve(e) {
+    Ve = function (e) {
   return "__proto__" !== e && "constructor" !== e && "prototype" !== e;
 };
 
@@ -35699,15 +35623,11 @@ function Be(e, t, n) {
 }
 
 function Me(e) {
-  for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++) {
-    n[r - 1] = arguments[r];
-  }
+  for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++) n[r - 1] = arguments[r];
 
   for (var o = 0, s = n; o < s.length; o++) {
     var i = s[o];
-    if (xe(i)) for (var a in i) {
-      Ve(a) && Be(e, i[a], a);
-    }
+    if (xe(i)) for (var a in i) Ve(a) && Be(e, i[a], a);
   }
 
   return e;
@@ -35727,10 +35647,10 @@ function Ge(e) {
 
       if (b(e)) {
         var n = e(t);
-        return "production" === "development" || null !== n && !Array.isArray(n) && "object" == _typeof(n) ? n : j(7);
+        return "production" === "development" || null !== n && !Array.isArray(n) && "object" == typeof n ? n : j(7);
       }
 
-      return Array.isArray(e) || "object" != _typeof(e) ? j(8) : t ? v({}, t, {}, e) : e;
+      return Array.isArray(e) || "object" != typeof e ? j(8) : t ? v({}, t, {}, e) : e;
     }(e.theme, t);
   }, [e.theme, t]);
   return e.children ? _react.default.createElement(ze.Provider, {
@@ -35766,7 +35686,7 @@ function Ye(e, t, n) {
   var C,
       I = new se(n, g, o ? e.componentStyle : void 0),
       P = I.isStatic && 0 === c.length,
-      O = function O(e, t) {
+      O = function (e, t) {
     return function (e, t, n, r) {
       var o = e.attrs,
           i = e.componentStyle,
@@ -35789,9 +35709,7 @@ function Ye(e, t, n) {
               s,
               i = e;
 
-          for (t in b(i) && (i = i(r)), i) {
-            r[t] = o[t] = "className" === t ? (n = o[t], s = i[t], n && s ? n + " " + s : n || s) : i[t];
-          }
+          for (t in b(i) && (i = i(r)), i) r[t] = o[t] = "className" === t ? (n = o[t], s = i[t], n && s ? n + " " + s : n || s) : i[t];
         }), [r, o];
       }(Oe(t, (0, _react.useContext)(ze), a) || E, t, o),
           y = f[0],
@@ -35808,9 +35726,7 @@ function Ye(e, t, n) {
           A = g !== t ? v({}, t, {}, g) : t,
           C = {};
 
-      for (var I in A) {
-        "$" !== I[0] && "as" !== I && ("forwardedAs" === I ? C.as = A[I] : (d ? d(I, _isPropValid.default) : !N || (0, _isPropValid.default)(I)) && (C[I] = A[I]));
-      }
+      for (var I in A) "$" !== I[0] && "as" !== I && ("forwardedAs" === I ? C.as = A[I] : (d ? d(I, _isPropValid.default) : !N || (0, _isPropValid.default)(I)) && (C[I] = A[I]));
 
       return t.style && g.style !== t.style && (C.style = v({}, t.style, {}, g.style)), C.className = Array.prototype.concat(c, h, S !== h ? S : null, t.className, g.className).filter(Boolean).join(" "), C.ref = w, (0, _react.createElement)(_, C);
     }(C, e, t, P);
@@ -35825,9 +35741,7 @@ function Ye(e, t, n) {
           o = {},
           s = Object.keys(e);
 
-      for (r = 0; r < s.length; r++) {
-        n = s[r], t.indexOf(n) >= 0 || (o[n] = e[n]);
-      }
+      for (r = 0; r < s.length; r++) n = s[r], t.indexOf(n) >= 0 || (o[n] = e[n]);
 
       return o;
     }(t, ["componentId"]),
@@ -35838,10 +35752,10 @@ function Ye(e, t, n) {
       componentId: s
     }), n);
   }, Object.defineProperty(C, "defaultProps", {
-    get: function get() {
+    get: function () {
       return this._foldedDefaultProps;
     },
-    set: function set(t) {
+    set: function (t) {
       this._foldedDefaultProps = o ? Me({}, e.defaultProps, t) : t;
     }
   }), "production" !== "development" && (Pe(f, g), C.warnTooManyClasses = function (e, t) {
@@ -35867,11 +35781,11 @@ function Ye(e, t, n) {
   }), C;
 }
 
-var qe = function qe(e) {
+var qe = function (e) {
   return function e(t, r, o) {
     if (void 0 === o && (o = E), !(0, _reactIs.isValidElementType)(r)) return j(1, String(r));
 
-    var s = function s() {
+    var s = function () {
       return t(r, o, Ae.apply(void 0, arguments));
     };
 
@@ -35907,9 +35821,7 @@ var He = function () {
 }();
 
 function $e(e) {
-  for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), o = 1; o < t; o++) {
-    n[o - 1] = arguments[o];
-  }
+  for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), o = 1; o < t; o++) n[o - 1] = arguments[o];
 
   var i = Ae.apply(void 0, [e].concat(n)),
       a = "sc-global-" + Te(JSON.stringify(i)),
@@ -35944,9 +35856,7 @@ function $e(e) {
 function We(e) {
   "production" !== "development" && "undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("`keyframes` cannot be used on ReactNative, only on the web. To do animation in ReactNative please use Animated.");
 
-  for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++) {
-    n[r - 1] = arguments[r];
-  }
+  for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++) n[r - 1] = arguments[r];
 
   var o = Ae.apply(void 0, [e].concat(n)).join(""),
       s = Te(o);
@@ -35988,7 +35898,7 @@ var Ue = function () {
     return j(3);
   }, e;
 }(),
-    Je = function Je(e) {
+    Je = function (e) {
   var t = _react.default.forwardRef(function (t, n) {
     var o = (0, _react.useContext)(ze),
         i = e.defaultProps,
@@ -36001,7 +35911,7 @@ var Ue = function () {
 
   return (0, _hoistNonReactStatics.default)(t, e), t.displayName = "WithTheme(" + _(e) + ")", t;
 },
-    Xe = function Xe() {
+    Xe = function () {
   return (0, _react.useContext)(ze);
 },
     Ze = {
@@ -36016,7 +35926,7 @@ exports.ServerStyleSheet = Ue;
 "production" !== "development" && "undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), "production" !== "development" && "test" !== "development" && (window["__styled-components-init__"] = window["__styled-components-init__"] || 0, 1 === window["__styled-components-init__"] && console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.\n\nSee https://s-c.sh/2BAXzed for more info."), window["__styled-components-init__"] += 1);
 var _default = qe;
 exports.default = _default;
-},{"react-is":"node_modules/react-is/index.js","react":"node_modules/react/index.js","shallowequal":"node_modules/shallowequal/index.js","@emotion/stylis":"node_modules/@emotion/stylis/dist/stylis.browser.esm.js","@emotion/unitless":"node_modules/@emotion/unitless/dist/unitless.browser.esm.js","@emotion/is-prop-valid":"node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","hoist-non-react-statics":"node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","process":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"components/Menu.js":[function(require,module,exports) {
+},{"react-is":"node_modules/react-is/index.js","react":"node_modules/react/index.js","shallowequal":"node_modules/shallowequal/index.js","@emotion/stylis":"node_modules/@emotion/stylis/dist/stylis.browser.esm.js","@emotion/unitless":"node_modules/@emotion/unitless/dist/unitless.browser.esm.js","@emotion/is-prop-valid":"node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","hoist-non-react-statics":"node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","process":"../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/process/browser.js"}],"components/Menu.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -36032,30 +35942,28 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tlist-style: none;\n\tgap: 20px;\n\ta {\n\t\ttext-decoration: none;\n\t}\n\ta:hover {\n\t\tcolor: yellow;\n\t}\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-var MenuStyles = _styledComponents.default.ul(_templateObject());
+const MenuStyles = _styledComponents.default.ul`
+	display: flex;
+	list-style: none;
+	gap: 20px;
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		color: yellow;
+	}
+`;
 
 function Menu() {
-  return _react.default.createElement(MenuStyles, null, _react.default.createElement(_reactRouterDom.Link, {
+  return /*#__PURE__*/_react.default.createElement(MenuStyles, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
     to: "/"
-  }, _react.default.createElement("li", null, "\uD83D\uDD25 Popular Songs")), _react.default.createElement(_reactRouterDom.Link, {
+  }, /*#__PURE__*/_react.default.createElement("li", null, "\uD83D\uDD25 Popular Songs")), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
     to: "/styles"
-  }, _react.default.createElement("li", null, "\uD83D\uDC97 Styles")), _react.default.createElement(_reactRouterDom.Link, {
+  }, /*#__PURE__*/_react.default.createElement("li", null, "\uD83D\uDC97 Styles")), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
     to: "/add"
-  }, _react.default.createElement("li", null, "\uD83C\uDF1A Add")), _react.default.createElement(_reactRouterDom.Link, {
+  }, /*#__PURE__*/_react.default.createElement("li", null, "\uD83C\uDF1A Add")), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
     to: "/cart"
-  }, _react.default.createElement("li", null, "\uD83D\uDED2 Cart")));
+  }, /*#__PURE__*/_react.default.createElement("li", null, "\uD83D\uDED2 Cart")));
 }
 },{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"node_modules/react-icons/lib/esm/iconsManifest.js":[function(require,module,exports) {
 "use strict";
@@ -52805,77 +52713,80 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tgap: 20px;\n\tcolor: white;\n\tbackground: #272343;\n\tpadding: 2rem;\n\tjustify-content: space-between;\n\talign-items: center;\n\tborder-radius: 5px;\n\t.song-title {\n\t\tfont-size: 1.8rem;\n\t}\n\tsvg {\n\t\tfont-size: 1.5rem;\n\t\tcursor: pointer;\n\t}\n\t.heart-icon {\n\t\tcolor: #ffd803;\n\t}\n\t.votes,\n\ta {\n\t\tcolor: #bae8e8;\n\t}\n\tsvg:hover {\n\t\tcolor: #ffd803;\n\t}\n"]);
+const SongItemStyle = _styledComponents.default.div`
+	display: flex;
+	gap: 20px;
+	color: white;
+	background: #272343;
+	padding: 2rem;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	.song-title {
+		font-size: 1.8rem;
+	}
+	svg {
+		font-size: 1.5rem;
+		cursor: pointer;
+	}
+	.heart-icon {
+		color: #ffd803;
+	}
+	.votes,
+	a {
+		color: #bae8e8;
+	}
+	svg:hover {
+		color: #ffd803;
+	}
+`;
 
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-var SongItemStyle = _styledComponents.default.div(_templateObject());
-
-function SongItem(_ref) {
-  var song = _ref.song;
-
-  var _useContext = (0, _react.useContext)(_Context.Context),
-      favoriteSong = _useContext.favoriteSong,
-      upvoteSong = _useContext.upvoteSong,
-      downvoteSong = _useContext.downvoteSong,
-      addToCart = _useContext.addToCart,
-      cartItems = _useContext.cartItems,
-      removeCartItem = _useContext.removeCartItem;
+function SongItem({
+  song
+}) {
+  const {
+    favoriteSong,
+    upvoteSong,
+    downvoteSong,
+    addToCart,
+    cartItems,
+    removeCartItem
+  } = (0, _react.useContext)(_Context.Context);
 
   function showCartIcon() {
-    var isAlreadyInCart = cartItems.some(function (item) {
-      return item.id === song.id;
-    });
+    const isAlreadyInCart = cartItems.some(item => item.id === song.id);
 
     if (isAlreadyInCart) {
-      return _react.default.createElement(_ai.AiTwotoneShopping, {
-        onClick: function onClick() {
-          return removeCartItem(song.id);
-        }
+      return /*#__PURE__*/_react.default.createElement(_ai.AiTwotoneShopping, {
+        onClick: () => removeCartItem(song.id)
       });
     }
 
-    return _react.default.createElement(_ai.AiOutlineShopping, {
-      onClick: function onClick() {
-        return addToCart(song);
-      }
+    return /*#__PURE__*/_react.default.createElement(_ai.AiOutlineShopping, {
+      onClick: () => addToCart(song)
     });
   }
 
   function showFavoriteIcon() {
-    return song.isFavorited ? _react.default.createElement(_ai.AiFillHeart, null) : _react.default.createElement(_ai.AiOutlineHeart, null);
+    return song.isFavorited ? /*#__PURE__*/_react.default.createElement(_ai.AiFillHeart, null) : /*#__PURE__*/_react.default.createElement(_ai.AiOutlineHeart, null);
   }
 
-  return _react.default.createElement(SongItemStyle, null, _react.default.createElement("div", {
+  return /*#__PURE__*/_react.default.createElement(SongItemStyle, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "heart-icon",
-    onClick: function onClick() {
-      return favoriteSong(song.id);
-    }
-  }, showFavoriteIcon()), _react.default.createElement("div", null, _react.default.createElement("div", {
+    onClick: () => favoriteSong(song.id)
+  }, showFavoriteIcon()), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", {
     className: "song-title"
-  }, song.title), _react.default.createElement("div", null, song.artist)), _react.default.createElement("div", {
+  }, song.title), /*#__PURE__*/_react.default.createElement("div", null, song.artist)), /*#__PURE__*/_react.default.createElement("div", {
     className: "votes"
-  }, song.upvotes, " ", _react.default.createElement(_ai.AiOutlineArrowUp, {
-    onClick: function onClick() {
-      return upvoteSong(song.id);
-    }
-  })), _react.default.createElement("div", {
+  }, song.upvotes, " ", /*#__PURE__*/_react.default.createElement(_ai.AiOutlineArrowUp, {
+    onClick: () => upvoteSong(song.id)
+  })), /*#__PURE__*/_react.default.createElement("div", {
     className: "votes"
-  }, song.downvotes, " ", _react.default.createElement(_ai.AiOutlineArrowDown, {
-    onClick: function onClick() {
-      return downvoteSong(song.id);
-    }
-  })), showCartIcon(), _react.default.createElement("div", null, _react.default.createElement(_reactRouterDom.Link, {
-    to: "/song/".concat(song.id)
-  }, _react.default.createElement(_ai.AiOutlineEllipsis, null))));
+  }, song.downvotes, " ", /*#__PURE__*/_react.default.createElement(_ai.AiOutlineArrowDown, {
+    onClick: () => downvoteSong(song.id)
+  })), showCartIcon(), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: `/song/${song.id}`
+  }, /*#__PURE__*/_react.default.createElement(_ai.AiOutlineEllipsis, null))));
 }
 },{"react":"node_modules/react/index.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","./Context":"components/Context.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","react-icons/ai":"node_modules/react-icons/ai/index.esm.js"}],"components/PopularSongs.js":[function(require,module,exports) {
 "use strict";
@@ -52899,42 +52810,35 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tdisplay: grid;\n\tgrid-template-columns: 500px;\n\tgap: 20px;\n\tpadding: 0;\n\tmargin: 0;\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-var SongsContainer = _styledComponents.default.ul(_templateObject());
+const SongsContainer = _styledComponents.default.ul`
+	display: grid;
+	grid-template-columns: 500px;
+	gap: 20px;
+	padding: 0;
+	margin: 0;
+`;
 
 function PopularSongs() {
-  var _useContext = (0, _react.useContext)(_Context.Context),
-      songs = _useContext.songs;
+  const {
+    songs
+  } = (0, _react.useContext)(_Context.Context);
 
   function sortSongsByPopularity(songA, songB) {
-    var ratioA = songA.upvotes - songA.downvotes;
-    var ratioB = songB.upvotes - songB.downvotes;
+    const ratioA = songA.upvotes - songA.downvotes;
+    const ratioB = songB.upvotes - songB.downvotes;
     return ratioB - ratioA;
   }
 
   function showSongsList() {
     if (!songs) return;
-    var songsList = songs.sort(sortSongsByPopularity).map(function (song) {
-      return _react.default.createElement(_SongItem.default, {
-        key: song.id,
-        song: song
-      });
-    });
+    const songsList = songs.sort(sortSongsByPopularity).map(song => /*#__PURE__*/_react.default.createElement(_SongItem.default, {
+      key: song.id,
+      song: song
+    }));
     return songsList;
   }
 
-  return _react.default.createElement("div", null, _react.default.createElement("h1", null, "Popular Songs"), _react.default.createElement(SongsContainer, null, showSongsList()));
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h1", null, "Popular Songs"), /*#__PURE__*/_react.default.createElement(SongsContainer, null, showSongsList()));
 }
 },{"react":"node_modules/react/index.js","./Context":"components/Context.js","./SongItem":"components/SongItem.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"components/StylesList.js":[function(require,module,exports) {
 "use strict";
@@ -52958,30 +52862,27 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tdisplay: grid;\n\tgap: 20px;\n\ta {\n\t\ttext-decoration: none;\n\t\tcolor: #272343;\n\t\tfont-size: 2rem;\n\t}\n\ta:hover {\n\t\tcolor: #ffd803;\n\t}\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-var StylesContainer = _styledComponents.default.div(_templateObject());
+const StylesContainer = _styledComponents.default.div`
+	display: grid;
+	gap: 20px;
+	a {
+		text-decoration: none;
+		color: #272343;
+		font-size: 2rem;
+	}
+	a:hover {
+		color: #ffd803;
+	}
+`;
 
 function StylesList() {
-  var _useContext = (0, _react.useContext)(_Context.Context),
-      styles = _useContext.styles;
-
-  return _react.default.createElement("div", null, _react.default.createElement("h1", null, "Styles list"), _react.default.createElement(StylesContainer, null, styles.map(function (style) {
-    return _react.default.createElement(_reactRouterDom.Link, {
-      to: "/styles/".concat(style),
-      key: style
-    }, "\uD83C\uDFA7 ", style);
-  })));
+  const {
+    styles
+  } = (0, _react.useContext)(_Context.Context);
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h1", null, "Styles list"), /*#__PURE__*/_react.default.createElement(StylesContainer, null, styles.map(style => /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: `/styles/${style}`,
+    key: style
+  }, "\uD83C\uDFA7 ", style))));
 }
 },{"react":"node_modules/react/index.js","./Context":"components/Context.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"components/Style.js":[function(require,module,exports) {
 "use strict";
@@ -53006,61 +52907,48 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n\tbackground: #272343;\n\tpadding: 2rem;\n\tcolor: white;\n\th3 {\n\t\tmargin: 0;\n\t\tfont-size: 1.4rem;\n\t}\n"]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tdisplay: grid;\n\tgrid-template-columns: 500px;\n\tgap: 20px;\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-var SongPreviewContainer = _styledComponents.default.div(_templateObject());
-
-var SongPreview = _styledComponents.default.div(_templateObject2());
-
+const SongPreviewContainer = _styledComponents.default.div`
+	display: grid;
+	grid-template-columns: 500px;
+	gap: 20px;
+`;
+const SongPreview = _styledComponents.default.div`
+	background: #272343;
+	padding: 2rem;
+	color: white;
+	h3 {
+		margin: 0;
+		font-size: 1.4rem;
+	}
+`;
 exports.SongPreview = SongPreview;
 
 function Style() {
-  var _useParams = (0, _reactRouterDom.useParams)(),
-      styleName = _useParams.styleName;
-
-  var _useContext = (0, _react.useContext)(_Context.Context),
-      songs = _useContext.songs;
+  const {
+    styleName
+  } = (0, _reactRouterDom.useParams)();
+  const {
+    songs
+  } = (0, _react.useContext)(_Context.Context);
 
   function createSongTemplate(song) {
-    return _react.default.createElement(_reactRouterDom.Link, {
-      to: "/song/".concat(song.id),
+    return /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+      to: `/song/${song.id}`,
       key: song.id
-    }, _react.default.createElement(SongPreview, null, _react.default.createElement("h3", null, song.title), _react.default.createElement("h4", null, song.artist)));
+    }, /*#__PURE__*/_react.default.createElement(SongPreview, null, /*#__PURE__*/_react.default.createElement("h3", null, song.title), /*#__PURE__*/_react.default.createElement("h4", null, song.artist)));
   }
 
   function showSongsFilteredByStyle() {
-    var filteredSongs = songs.filter(function (song) {
-      return song.style === styleName;
-    }).map(createSongTemplate);
+    const filteredSongs = songs.filter(song => song.style === styleName).map(createSongTemplate);
 
     if (filteredSongs.length === 0) {
-      return _react.default.createElement("p", null, "No results.");
+      return /*#__PURE__*/_react.default.createElement("p", null, "No results.");
     }
 
     return filteredSongs;
   }
 
-  return _react.default.createElement("div", null, _react.default.createElement("h1", null, "Style"), _react.default.createElement(SongPreviewContainer, null, showSongsFilteredByStyle()));
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h1", null, "Style"), /*#__PURE__*/_react.default.createElement(SongPreviewContainer, null, showSongsFilteredByStyle()));
 }
 },{"react":"node_modules/react/index.js","./Context":"components/Context.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"node_modules/react-icons/Ai/index.esm.js":[function(require,module,exports) {
 "use strict";
@@ -69530,21 +69418,22 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function Song() {
-  var _useParams = (0, _reactRouterDom.useParams)(),
-      songId = _useParams.songId;
-
-  var _useContext = (0, _react.useContext)(_Context.Context),
-      songs = _useContext.songs;
-
-  var history = (0, _reactRouterDom.useHistory)();
-  var song = songs.find(function (song) {
-    return song.id === songId;
-  });
-  return _react.default.createElement("div", null, _react.default.createElement("h1", null, _react.default.createElement(_Ai.AiOutlineArrowLeft, {
-    onClick: function onClick() {
-      return history.goBack();
+  const {
+    songId
+  } = (0, _reactRouterDom.useParams)();
+  const {
+    songs
+  } = (0, _react.useContext)(_Context.Context);
+  const history = (0, _reactRouterDom.useHistory)();
+  const song = songs.find(song => song.id === songId);
+  console.log(song);
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h1", null, /*#__PURE__*/_react.default.createElement(_Ai.AiOutlineArrowLeft, {
+    onClick: () => history.goBack()
+  }), song?.artist, " - ", song?.title), /*#__PURE__*/_react.default.createElement(_Style.SongPreview, null, /*#__PURE__*/_react.default.createElement("h3", null, "Lyrics"), /*#__PURE__*/_react.default.createElement("div", {
+    dangerouslySetInnerHTML: {
+      __html: song?.lyrics
     }
-  }), song === null || song === void 0 ? void 0 : song.artist, " - ", song === null || song === void 0 ? void 0 : song.title), _react.default.createElement(_Style.SongPreview, null, _react.default.createElement("h3", null, "Lyrics"), song === null || song === void 0 ? void 0 : song.lyrics));
+  })));
 }
 },{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./Context":"components/Context.js","./Style":"components/Style.js","react-icons/Ai":"node_modules/react-icons/Ai/index.esm.js"}],"components/AddSong.js":[function(require,module,exports) {
 "use strict";
@@ -69566,70 +69455,48 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tdisplay: grid;\n\tgrid-template-columns: 300px;\n\tgap: 10px;\n\tinput,\n\tselect,\n\ttextarea {\n\t\theight: 30px;\n\t\tbackground: #bae8e8;\n\t\tborder: none;\n\t\tpadding: 0 1rem;\n\t\tborder-radius: 5px;\n\t}\n\tinput::placeholder {\n\t\t/* Chrome, Firefox, Opera, Safari 10.1+ */\n\t\tcolor: #272343;\n\t\topacity: 1; /* Firefox */\n\t}\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-var FormStyles = _styledComponents.default.form(_templateObject()); // control inputs
+const FormStyles = _styledComponents.default.form`
+	display: grid;
+	grid-template-columns: 300px;
+	gap: 10px;
+	input,
+	select,
+	textarea {
+		height: 30px;
+		background: #bae8e8;
+		border: none;
+		padding: 0 1rem;
+		border-radius: 5px;
+	}
+	input::placeholder {
+		/* Chrome, Firefox, Opera, Safari 10.1+ */
+		color: #272343;
+		opacity: 1; /* Firefox */
+	}
+`; // control inputs
 // input that is link to STATE
 // value, onChange
 
-
 function AddSong() {
-  var _useContext = (0, _react.useContext)(_Context.Context),
-      styles = _useContext.styles,
-      addSong = _useContext.addSong;
-
-  var _useState = (0, _react.useState)(''),
-      _useState2 = _slicedToArray(_useState, 2),
-      title = _useState2[0],
-      setTitle = _useState2[1];
-
-  var _useState3 = (0, _react.useState)(''),
-      _useState4 = _slicedToArray(_useState3, 2),
-      artist = _useState4[0],
-      setArtist = _useState4[1];
-
-  var _useState5 = (0, _react.useState)(0),
-      _useState6 = _slicedToArray(_useState5, 2),
-      price = _useState6[0],
-      setPrice = _useState6[1];
-
-  var _useState7 = (0, _react.useState)(''),
-      _useState8 = _slicedToArray(_useState7, 2),
-      style = _useState8[0],
-      setStyle = _useState8[1];
-
-  var _useState9 = (0, _react.useState)(''),
-      _useState10 = _slicedToArray(_useState9, 2),
-      lyrics = _useState10[0],
-      setLyrics = _useState10[1];
+  const {
+    styles,
+    addSong
+  } = (0, _react.useContext)(_Context.Context);
+  const [title, setTitle] = (0, _react.useState)('');
+  const [artist, setArtist] = (0, _react.useState)('');
+  const [price, setPrice] = (0, _react.useState)(0);
+  const [style, setStyle] = (0, _react.useState)('');
+  const [lyrics, setLyrics] = (0, _react.useState)('');
 
   function handleSubmit(e) {
     e.preventDefault();
-    var newSong = {
+    const newSong = {
       id: Date.now(),
-      title: title,
-      artist: artist,
-      price: price,
-      style: style,
-      lyrics: lyrics,
+      title,
+      artist,
+      price,
+      style,
+      lyrics,
       upvotes: 0,
       downvotes: 0,
       isFavorited: false
@@ -69644,48 +69511,36 @@ function AddSong() {
     setLyrics('');
   }
 
-  return _react.default.createElement("div", null, _react.default.createElement("h1", null, "\uD83C\uDF1A Add a new song"), _react.default.createElement(FormStyles, {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h1", null, "\uD83C\uDF1A Add a new song"), /*#__PURE__*/_react.default.createElement(FormStyles, {
     onSubmit: handleSubmit
-  }, _react.default.createElement("input", {
+  }, /*#__PURE__*/_react.default.createElement("input", {
     placeholder: "Title",
     required: true,
     value: title,
-    onChange: function onChange(e) {
-      return setTitle(e.currentTarget.value);
-    }
-  }), _react.default.createElement("input", {
+    onChange: e => setTitle(e.currentTarget.value)
+  }), /*#__PURE__*/_react.default.createElement("input", {
     placeholder: "Artist",
     required: true,
     value: artist,
-    onChange: function onChange(e) {
-      return setArtist(e.currentTarget.value);
-    }
-  }), _react.default.createElement("input", {
+    onChange: e => setArtist(e.currentTarget.value)
+  }), /*#__PURE__*/_react.default.createElement("input", {
     placeholder: "Price",
     required: true,
     value: price,
-    onChange: function onChange(e) {
-      return setPrice(e.currentTarget.value);
-    }
-  }), _react.default.createElement("select", {
+    onChange: e => setPrice(e.currentTarget.value)
+  }), /*#__PURE__*/_react.default.createElement("select", {
     required: true,
     value: style,
-    onChange: function onChange(e) {
-      return setStyle(e.currentTarget.value);
-    }
-  }, styles.map(function (style) {
-    return _react.default.createElement("option", {
-      key: style,
-      value: style
-    }, style);
-  })), _react.default.createElement("textarea", {
+    onChange: e => setStyle(e.currentTarget.value)
+  }, styles.map(style => /*#__PURE__*/_react.default.createElement("option", {
+    key: style,
+    value: style
+  }, style))), /*#__PURE__*/_react.default.createElement("textarea", {
     required: true,
     placeholder: "Lyrics",
     value: lyrics,
-    onChange: function onChange(e) {
-      return setLyrics(e.currentTarget.value);
-    }
-  }), _react.default.createElement("button", null, "Add")));
+    onChange: e => setLyrics(e.currentTarget.value)
+  }), /*#__PURE__*/_react.default.createElement("button", null, "Add")));
 }
 },{"react":"node_modules/react/index.js","./Context":"components/Context.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"components/Cart.js":[function(require,module,exports) {
 "use strict";
@@ -69709,53 +69564,37 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\tjustify-content: space-between;\n\tpadding: 2rem;\n\tbackground: #272343;\n\tcolor: white;\n\t.price {\n\t\tcolor: #ffd803;\n\t}\n\tsvg {\n\t\tcolor: #bae8e8;\n\t\tcursor: pointer;\n\t}\n\tsvg:hover {\n\t\tcolor: #ffd803;\n\t}\n"]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\tdisplay: grid;\n\tgap: 20px;\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-var CartItemsContainer = _styledComponents.default.div(_templateObject());
-
-var CartItemStyles = _styledComponents.default.div(_templateObject2());
+const CartItemsContainer = _styledComponents.default.div`
+	display: grid;
+	gap: 20px;
+`;
+const CartItemStyles = _styledComponents.default.div`
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem;
+	background: #272343;
+	color: white;
+	.price {
+		color: #ffd803;
+	}
+	svg {
+		color: #bae8e8;
+		cursor: pointer;
+	}
+	svg:hover {
+		color: #ffd803;
+	}
+`;
 
 function Cart() {
-  var _useContext = (0, _react.useContext)(_Context.Context),
-      cartItems = _useContext.cartItems,
-      removeCartItem = _useContext.removeCartItem,
-      emptyCart = _useContext.emptyCart;
-
-  var _useState = (0, _react.useState)(0),
-      _useState2 = _slicedToArray(_useState, 2),
-      total = _useState2[0],
-      setTotal = _useState2[1];
-
-  (0, _react.useEffect)(function () {
-    var newTotal = cartItems.reduce(function (total, song) {
+  const {
+    cartItems,
+    removeCartItem,
+    emptyCart
+  } = (0, _react.useContext)(_Context.Context);
+  const [total, setTotal] = (0, _react.useState)(0);
+  (0, _react.useEffect)(() => {
+    const newTotal = cartItems.reduce((total, song) => {
       total += song.price;
       return total;
     }, 0);
@@ -69764,22 +69603,18 @@ function Cart() {
 
   function completeOrder() {
     // show the price somewhere (alert or console)
-    alert("THANK YOU FOR YOUR ORDER. PLEASE PAY : ".concat(total)); // empty the cart
+    alert(`THANK YOU FOR YOUR ORDER. PLEASE PAY : ${total}`); // empty the cart
 
     emptyCart();
   }
 
-  return _react.default.createElement("div", null, _react.default.createElement("h1", null, "Cart"), _react.default.createElement(CartItemsContainer, null, cartItems.map(function (song) {
-    return _react.default.createElement(CartItemStyles, {
-      key: song.id
-    }, _react.default.createElement(_ai.AiOutlineDelete, {
-      onClick: function onClick() {
-        return removeCartItem(song.id);
-      }
-    }), _react.default.createElement("div", null, _react.default.createElement("div", null, song.title), _react.default.createElement("div", null, song.artist)), _react.default.createElement("div", {
-      className: "price"
-    }, song.price, " Ar"));
-  })), cartItems.length !== 0 ? _react.default.createElement("p", null, "Total: ", total, " Ar") : 'Empty Cart.', total !== 0 && _react.default.createElement("button", {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h1", null, "Cart"), /*#__PURE__*/_react.default.createElement(CartItemsContainer, null, cartItems.map(song => /*#__PURE__*/_react.default.createElement(CartItemStyles, {
+    key: song.id
+  }, /*#__PURE__*/_react.default.createElement(_ai.AiOutlineDelete, {
+    onClick: () => removeCartItem(song.id)
+  }), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", null, song.title), /*#__PURE__*/_react.default.createElement("div", null, song.artist)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "price"
+  }, song.price, " Ar")))), cartItems.length !== 0 ? /*#__PURE__*/_react.default.createElement("p", null, "Total: ", total, " Ar") : 'Empty Cart.', total !== 0 && /*#__PURE__*/_react.default.createElement("button", {
     onClick: completeOrder
   }, "Buy"));
 }
@@ -69818,27 +69653,27 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // - /add (AddSong.js)
 // - /cart (Cart.js)
 function App() {
-  return _react.default.createElement("div", null, _react.default.createElement(_reactRouterDom.Link, {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
     to: "/"
-  }, _react.default.createElement("h1", null, "Hit Parade")), _react.default.createElement(_Menu.default, null), _react.default.createElement(_reactRouterDom.Switch, null, _react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "Hit Parade")), /*#__PURE__*/_react.default.createElement(_Menu.default, null), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Switch, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     exact: true,
     path: "/"
-  }, _react.default.createElement(_PopularSongs.default, null)), _react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement(_PopularSongs.default, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     exact: true,
     path: "/styles"
-  }, _react.default.createElement(_StylesList.default, null)), _react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement(_StylesList.default, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     exact: true,
     path: "/styles/:styleName"
-  }, _react.default.createElement(_Style.default, null)), _react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement(_Style.default, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     exact: true,
     path: "/song/:songId"
-  }, _react.default.createElement(_Song.default, null)), _react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement(_Song.default, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     exact: true,
     path: "/add"
-  }, _react.default.createElement(_AddSong.default, null)), _react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement(_AddSong.default, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     exact: true,
     path: "/cart"
-  }, _react.default.createElement(_Cart.default, null))));
+  }, /*#__PURE__*/_react.default.createElement(_Cart.default, null))));
 }
 },{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./Menu":"components/Menu.js","./PopularSongs":"components/PopularSongs.js","./StylesList":"components/StylesList.js","./Style":"components/Style.js","./Song":"components/Song.js","./AddSong":"components/AddSong.js","./Cart":"components/Cart.js"}],"index.js":[function(require,module,exports) {
 "use strict";
@@ -69855,8 +69690,8 @@ var _App = _interopRequireDefault(require("./components/App"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_reactDom.default.render(_react.default.createElement(_Context.ContextProvider, null, _react.default.createElement(_reactRouterDom.BrowserRouter, null, _react.default.createElement(_App.default, null))), document.getElementById('root'));
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./components/Context":"components/Context.js","./components/App":"components/App.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+_reactDom.default.render( /*#__PURE__*/_react.default.createElement(_Context.ContextProvider, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement(_App.default, null))), document.getElementById('root'));
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./components/Context":"components/Context.js","./components/App":"components/App.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -69884,7 +69719,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54080" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51463" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -70060,5 +69895,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
-//# sourceMappingURL=/hit-parade-react.e31bb0bc.js.map
+},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+//# sourceMappingURL=/hit-parade-react-1.e31bb0bc.js.map

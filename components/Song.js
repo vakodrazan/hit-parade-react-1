@@ -11,6 +11,8 @@ export default function Song() {
 
 	const song = songs.find(song => song.id === songId);
 
+	console.log(song);
+
 	return (
 		<div>
 			<h1>
@@ -19,7 +21,7 @@ export default function Song() {
 			</h1>
 			<SongPreview>
 				<h3>Lyrics</h3>
-				{song?.lyrics}
+				<div dangerouslySetInnerHTML={{ __html: song?.lyrics }}></div>
 			</SongPreview>
 		</div>
 	);
