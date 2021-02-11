@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import SongItem from './SongItem';
+import SongItem from '../containers/SongItem';
 import styled from 'styled-components';
 
 const SongsContainer = styled.ul`

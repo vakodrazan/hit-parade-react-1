@@ -41,7 +41,7 @@ const SongItemStyle = styled.div`
 	}
 `;
 
-export default function SongItem({ song }) {
+export default function SongItem({ song, upvoteSong, downvoteSong, favoriteSong }) {
 	// const {
 	// 	favoriteSong,
 	// 	upvoteSong,
@@ -59,29 +59,25 @@ export default function SongItem({ song }) {
 	// 	return <AiOutlineShopping onClick={() => addToCart(song)} />;
 	// }
 
-	// function showFavoriteIcon() {
-	// 	return song.isFavorited ? <AiFillHeart /> : <AiOutlineHeart />;
-	// }
+	function showFavoriteIcon() {
+		return song.isFavorited ? <AiFillHeart onClick={() => favoriteSong(song.id)} /> : <AiOutlineHeart onClick={() => favoriteSong(song.id)} />;
+	}
 
-
-// 	onClick={() => favoriteSong(song.id)}
-// onClick={() => upvoteSong(song.id)}
-// onClick={() => downvoteSong(song.id)}
 
 	return (
 		<SongItemStyle>
 			<div className="heart-icon">
-				{/* {showFavoriteIcon()} */}
+				{showFavoriteIcon()}
 			</div>
 			<div>
 				<div className="song-title">{song.title}</div>
 				<div>{song.artist}</div>
 			</div>
 			<div className="votes">
-				{song.upvotes} <AiOutlineArrowUp />
+				{song.upvotes} <AiOutlineArrowUp onClick={() => upvoteSong(song.id)}/>
 			</div>
 			<div className="votes">
-				{song.downvotes} <AiOutlineArrowDown />
+				{song.downvotes} <AiOutlineArrowDown  onClick={() => downvoteSong(song.id)}/>
 			</div>
 			{/* {showCartIcon()} */}
 			<div>

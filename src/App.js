@@ -6,7 +6,7 @@ import Menu from './components/Menu';
 import PopularSongs from './containers/PopularSongs';
 import StylesList from './components/StylesList';
 import Style from './components/Style';
-import Song from './components/Song';
+import Song from './containers/Song';
 import AddSong from './components/AddSong';
 import Cart from './components/Cart';
 
@@ -26,11 +26,11 @@ export default function App() {
 				</Route>
 				<Route exact path="/styles/:styleName">
 					<Style />
-				</Route>
+				</Route> */}
 				<Route exact path="/song/:songId">
 					<Song />
 				</Route>
-				<Route exact path="/add">
+				{/* <Route exact path="/add">
 					<AddSong />
 				</Route>
 				<Route exact path="/cart">
