@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { addSong } from '../actions/songsActions';
 import styled from 'styled-components';
 
 const FormStyles = styled.form`
@@ -25,7 +27,9 @@ const FormStyles = styled.form`
 // input that is link to STATE
 // value, onChange
 
-export default function AddSong({ styles, addSong }) {
+export default function AddSong() {
+	const styles = useSelector((state) => state.styles);
+	const dispatch = useDispatch();
 
 	const [title, setTitle] = useState('');
 	const [artist, setArtist] = useState('');
@@ -46,7 +50,7 @@ export default function AddSong({ styles, addSong }) {
 			downvotes: 0,
 			isFavorited: false,
 		};
-		addSong(newSong);
+		dispatch(addSong(newSong));
 		// reset the form... TODO: find a more elegant way.
 		setTitle('');
 		setArtist('');
@@ -63,23 +67,27 @@ export default function AddSong({ styles, addSong }) {
 					placeholder="Title"
 					required
 					value={title}
-					onChange={e => setTitle(e.currentTarget.value)}
+					onChange={(e) => setTitle(e.currentTarget.value)}
 				/>
 				<input
 					placeholder="Artist"
 					required
 					value={artist}
-					onChange={e => setArtist(e.currentTarget.value)}
+					onChange={(e) => setArtist(e.currentTarget.value)}
 				/>
 				<input
 					placeholder="Price"
 					required
 					value={price}
-					onChange={e => setPrice(e.currentTarget.value)}
+					onChange={(e) => setPrice(Number(e.currentTarget.value))}
 				/>
-				<select required value={style} onChange={e => setStyle(e.currentTarget.value)}>
+				<select
+					required
+					value={style}
+					onChange={(e) => setStyle(e.currentTarget.value)}
+				>
 					{/* generate the styles from the context style array */}
-					{styles.map(style => (
+					{styles.map((style) => (
 						<option key={style} value={style}>
 							{style}
 						</option>
@@ -89,7 +97,7 @@ export default function AddSong({ styles, addSong }) {
 					required
 					placeholder="Lyrics"
 					value={lyrics}
-					onChange={e => setLyrics(e.currentTarget.value)}
+					onChange={(e) => setLyrics(e.currentTarget.value)}
 				/>
 				<button>Add</button>
 			</FormStyles>

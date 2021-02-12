@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { connect } from 'react-redux';
 import { AiOutlineDelete } from 'react-icons/ai';
 import styled from 'styled-components';
+
+import { removeCartItem, emptyCart } from '../actions/cartItemsActions';
 
 const CartItemsContainer = styled.div`
 	display: grid;
@@ -25,7 +28,10 @@ const CartItemStyles = styled.div`
 	}
 `;
 
-export default function Cart({cartItems, emptyCart, removeCartItem}) {
+function Cart({ cartItems, removeCartItem, emptyCart }) {
+	// const { cartItems, removeCartItem, emptyCart } = useContext(Context);
+	// const cartItems = useSelector((state) => state.cartItems);
+
 	const [total, setTotal] = useState(0);
 
 	useEffect(() => {
@@ -40,16 +46,18 @@ export default function Cart({cartItems, emptyCart, removeCartItem}) {
 		// show the price somewhere (alert or console)
 		alert(`THANK YOU FOR YOUR ORDER. PLEASE PAY : ${total}`);
 		// empty the cart
-		emptyCart();
+		dispatch(emptyCart());
 	}
 
 	return (
 		<div>
 			<h1>Cart</h1>
 			<CartItemsContainer>
-				{cartItems.map(song => (
+				{cartItems.map((song) => (
 					<CartItemStyles key={song.id}>
-						<AiOutlineDelete onClick={() => removeCartItem(song.id)} />
+						<AiOutlineDelete
+							onClick={() => dispatch(removeCartItem(song.id))}
+						/>
 						<div>
 							<div>{song.title}</div>
 							<div>{song.artist}</div>
@@ -63,3 +71,8 @@ export default function Cart({cartItems, emptyCart, removeCartItem}) {
 		</div>
 	);
 }
+
+export default connect((state) => ({ cartItems: state.cartItems }), {
+	removeCartItem,
+	emptyCart,
+})(Cart);

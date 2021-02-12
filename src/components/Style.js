@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import { useParams, Link } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -18,8 +19,9 @@ export const SongPreview = styled.div`
 	}
 `;
 
-export default function Style({ songs }) {
+export default function Style() {
 	const { styleName } = useParams();
+	const songs = useSelector((state) => state.songs);
 
 	function createSongTemplate(song) {
 		return (
@@ -34,7 +36,7 @@ export default function Style({ songs }) {
 
 	function showSongsFilteredByStyle() {
 		const filteredSongs = songs
-			.filter(song => song.style === styleName)
+			.filter((song) => song.style === styleName)
 			.map(createSongTemplate);
 		if (filteredSongs.length === 0) {
 			return <p>No results.</p>;

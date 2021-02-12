@@ -1,13 +1,16 @@
 import React from 'react';
 import { useParams, useHistory } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+
 import { SongPreview } from './Style';
 import { AiOutlineArrowLeft } from 'react-icons/Ai';
 
-export default function Song({songs}) {
+export default function Song() {
 	const { songId } = useParams();
+	const songs = useSelector((state) => state.songs);
 	const history = useHistory();
 
-	const song = songs.find(song => song.id === songId);
+	const song = songs.find((song) => song.id === songId);
 
 	return (
 		<div>
@@ -17,7 +20,7 @@ export default function Song({songs}) {
 			</h1>
 			<SongPreview>
 				<h3>Lyrics</h3>
-				<div dangerouslySetInnerHTML={{ __html: song?.lyrics }}></div>
+				{song?.lyrics}
 			</SongPreview>
 		</div>
 	);

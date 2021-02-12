@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
-import SongItem from '../containers/SongItem';
+import React from 'react';
+import { useSelector } from 'react-redux';
+import SongItem from './SongItem';
 import styled from 'styled-components';
 
 const SongsContainer = styled.ul`
@@ -10,8 +11,9 @@ const SongsContainer = styled.ul`
 	margin: 0;
 `;
 
-export default function PopularSongs({ songs }) {
-
+export default function PopularSongs() {
+	const songs = useSelector((state) => state.songs);
+	// const { songs } = useContext(Context);
 
 	function sortSongsByPopularity(songA, songB) {
 		const ratioA = songA.upvotes - songA.downvotes;
@@ -23,7 +25,7 @@ export default function PopularSongs({ songs }) {
 		if (!songs) return;
 		const songsList = songs
 			.sort(sortSongsByPopularity)
-			.map(song => <SongItem key={song.id} song={song}></SongItem>);
+			.map((song) => <SongItem key={song.id} song={song}></SongItem>);
 		return songsList;
 	}
 
