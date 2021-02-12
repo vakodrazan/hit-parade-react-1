@@ -1,6 +1,5 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import { Context } from './Context';
 import { Link } from 'react-router-dom';
 
 import {
@@ -41,23 +40,14 @@ const SongItemStyle = styled.div`
 	}
 `;
 
-export default function SongItem({ song, upvoteSong, downvoteSong, favoriteSong }) {
-	// const {
-	// 	favoriteSong,
-	// 	upvoteSong,
-	// 	downvoteSong,
-	// 	addToCart,
-	// 	cartItems,
-	// 	removeCartItem,
-	// } = useContext(Context);
-
-	// function showCartIcon() {
-	// 	const isAlreadyInCart = cartItems.some(item => item.id === song.id);
-	// 	if (isAlreadyInCart) {
-	// 		return <AiTwotoneShopping onClick={() => removeCartItem(song.id)} />;
-	// 	}
-	// 	return <AiOutlineShopping onClick={() => addToCart(song)} />;
-	// }
+export default function SongItem({ song, cartItems, upvoteSong, downvoteSong, favoriteSong, addToCart, removeCartItem }) {
+	function showCartIcon() {
+		const isAlreadyInCart = cartItems.some(item => item.id === song.id);
+		if (isAlreadyInCart) {
+			return <AiTwotoneShopping onClick={() => removeCartItem(song.id)} />;
+		}
+		return <AiOutlineShopping onClick={() => addToCart(song)} />;
+	}
 
 	function showFavoriteIcon() {
 		return song.isFavorited ? <AiFillHeart onClick={() => favoriteSong(song.id)} /> : <AiOutlineHeart onClick={() => favoriteSong(song.id)} />;
@@ -79,7 +69,7 @@ export default function SongItem({ song, upvoteSong, downvoteSong, favoriteSong 
 			<div className="votes">
 				{song.downvotes} <AiOutlineArrowDown  onClick={() => downvoteSong(song.id)}/>
 			</div>
-			{/* {showCartIcon()} */}
+			{showCartIcon()}
 			<div>
 				<Link to={`/song/${song.id}`}>
 					<AiOutlineEllipsis />

@@ -8,7 +8,7 @@ import StylesList from './containers/StylesList';
 import Style from './containers/Style';
 import Song from './containers/Song';
 import AddSong from './containers/AddSong';
-import Cart from './components/Cart';
+import Cart from './containers/Cart';
 
 export default function App() {
 	return (
@@ -33,9 +33,9 @@ export default function App() {
 				<Route exact path="/add">
 					<AddSong />
 				</Route>
-				{/* <Route exact path="/cart">
+				<Route exact path="/cart">
 					<Cart />
-				</Route> */}
+				</Route>
 			</Switch>
 		</div>
 	);

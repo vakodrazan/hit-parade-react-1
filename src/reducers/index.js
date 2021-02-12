@@ -41,9 +41,15 @@ function songs(state = [], action) {
 }
 function cartItems(state = [], action) {
     switch (action.type) {
-        case "":
-            
-    
+        case "CART_ITEMS":
+            return state
+
+        case "ADD_CART": 
+            return [...state, action.value]
+        case "REMOVE_CART_ITEM": 
+            return state.filter(cartItem => cartItem.id !== action.value)
+        case "EMPTY_CART": 
+            return []
         default:
             return state;
     }

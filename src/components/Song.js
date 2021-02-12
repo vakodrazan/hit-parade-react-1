@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 import { SongPreview } from './Style';
 import { AiOutlineArrowLeft } from 'react-icons/Ai';

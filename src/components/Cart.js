@@ -1,5 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react';
-import { Context } from './Context';
+import React, { useState, useEffect } from 'react';
 import { AiOutlineDelete } from 'react-icons/ai';
 import styled from 'styled-components';
 
@@ -26,8 +25,7 @@ const CartItemStyles = styled.div`
 	}
 `;
 
-export default function Cart() {
-	const { cartItems, removeCartItem, emptyCart } = useContext(Context);
+export default function Cart({cartItems, emptyCart, removeCartItem}) {
 	const [total, setTotal] = useState(0);
 
 	useEffect(() => {

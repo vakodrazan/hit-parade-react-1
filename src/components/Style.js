@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import { Context } from './Context';
+import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import styled from 'styled-components';
 

@@ -37,3 +37,28 @@ export function addSong(song) {
         value: song
     }
 }
+
+export function cartItems() {
+    return {
+        type: "CART_ITEMS",
+    }
+}
+export function addToCart(newCart) {
+    return {
+        type: "ADD_CART",
+        value: newCart
+    }
+}
+
+export function removeCartItem(songId) {
+    return {
+        type: "REMOVE_CART_ITEM",
+        value: songId
+    }
+}
+
+export function emptyCart() {
+    return {
+        type: "EMPTY_CART",
+    }
+}
